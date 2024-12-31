@@ -145,8 +145,3 @@ if query:
     # Display the response
     st.write("### Answer:")
     st.write(generated_text)
-
-    # Debug information
-    with st.expander("Debug Info"):
-        st.write("Relevant Document:", relevant_document)
-        st.write("Scores:", scores.tolist())
